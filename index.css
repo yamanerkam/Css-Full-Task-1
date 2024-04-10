@@ -11,10 +11,9 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-
     max-height: 40px;
     color: white;
-    padding: 10px;
+    padding: .5rem 1rem;
     display: flex;
     background-color: #1b2522;
     justify-content: space-between;
@@ -24,14 +23,13 @@ nav {
 .logo {
     justify-self: normal;
     align-self: normal;
-    max-width: 50%;
-    min-height: 50%;
+    width: 50px;
 }
 
 nav ul {
-    font-size: 1.25rem;
+    font-size: 1rem;
     display: flex;
-    gap: 15px;
+    gap: 10px;
     padding-right: 40px;
     list-style: none;
 }
