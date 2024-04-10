@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria;
+
+}
+
+nav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    max-height: 40px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    background-color: #1b2522;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    justify-self: normal;
+    align-self: normal;
+    max-width: 50%;
+    min-height: 50%;
+}
+
+nav ul {
+    font-size: 1.25rem;
+    display: flex;
+    gap: 15px;
+    padding-right: 40px;
+    list-style: none;
+}
+
+.btn {
+    color: white;
+    background-color: #00aaff;
+    border: none;
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 20px;
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0088cc;
+}
+
+.bodyy {
+    background-image: url("img/header_image.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position-x: 40%;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1 {
+    font-size: 3rem;
+    margin: 10px;
+    margin-bottom: 8px;
+}
+
+.text span {
+    font-size: 1.5rem;
+    margin: 20px;
+    margin-top: 1px;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 30px;
+    width: 2rem;
+}
+
+.curriculumn {
+    padding: 2rem;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.curriculumn h1 {
+    font-size: 3rem;
+}
+
+
+.grid {
+
+    display: grid;
+    row-gap: 10px;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.obj {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.obj {
+    max-width: 300px;
+}
+
+.icon {
+    width: 50px;
+}
+
+.free {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    display: flex;
+    background-color: #00aaff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.free h1 {
+    font-size: 2.5rem;
+    margin: 0;
+
+}
+
+.free p {
+    max-width: 300px;
+}
+
+
+
+.contactf {
+    padding: 2rem;
+    text-align: center;
+}
+
+form {
+    text-align: start;
+    display: flex;
+    flex-flow: column;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+label,
+input,
+textarea {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+
+.btn-send {
+    align-self: flex-end;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #1b2522;
+}
