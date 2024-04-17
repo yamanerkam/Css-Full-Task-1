@@ -89,15 +89,21 @@ nav ul {
     width: 2rem;
 }
 
+
+
+
+
+
 .curriculumn {
-    padding: 2rem;
     display: flex;
     flex-flow: column;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .curriculumn h1 {
+    text-align: center;
     font-size: 3rem;
 }
 
@@ -105,49 +111,82 @@ nav ul {
 .grid {
 
     display: grid;
+    justify-content: center;
     row-gap: 10px;
     column-gap: 50px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
+
+}
+
+
+@media only screen and (max-width: 700px) {
+    .grid {
+        display: flex;
+        flex-flow: column;
+        gap: 30px;
+    }
+
+    .icon-text {
+        max-width: 100px;
+    }
+
+    .pricing-cards-container {
+        display: flex;
+        background-color: #00aaff;
+        flex-direction: column !important;
+        color: white;
+        gap: 20px;
+    }
 
 }
 
 
 .obj {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 20px;
+
+
 }
 
-.obj {
-    max-width: 300px;
+.icon-text {
+    font-size: 20px;
+    max-width: 350px;
 }
+
 
 .icon {
     width: 50px;
 }
 
-.free {
+.pricing-cards-container {
     padding-top: 30px;
     padding-bottom: 30px;
 
     display: flex;
     background-color: #00aaff;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     color: white;
 }
 
-.free h1 {
-    font-size: 2.5rem;
-    margin: 0;
 
+.pricing-card {
+    background-color: #DCF4FF;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #1b2522;
 }
 
-.free p {
-    max-width: 300px;
+.price-header {
+    text-align: center;
 }
+
+.accent {
+    background-color: white;
+}
+
 
 
 
