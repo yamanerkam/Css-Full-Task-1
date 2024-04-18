@@ -7,7 +7,7 @@ body {
 
 nav {
     position: fixed;
-    z-index: 100;
+    z-index: 9999100;
     top: 0;
     left: 0;
     width: 100%;
@@ -90,8 +90,13 @@ nav ul {
 }
 
 .plan-price {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
+}
+
+.plan-name {
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .plan-price::after {
@@ -187,16 +192,42 @@ nav ul {
 .pricing-card {
     background-color: #DCF4FF;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #1b2522;
+    z-index: 9999;
+}
+
+.pricing-card:not(.accent) {
+    z-index: 1;
+    position: relative;
+}
+
+.card-one {
+    left: 5px;
+}
+
+.card-two {
+    right: 5px;
 }
 
 .price-header {
+    padding: 20px;
     text-align: center;
 }
 
+.plan-features {
+    font-size: 25px;
+    padding: 10px;
+}
+
 .accent {
+    padding: 20px 10px;
     background-color: white;
+}
+
+.inactive {
+    color: #808080;
+    text-decoration: line-through;
 }
 
 
