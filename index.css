@@ -155,6 +155,33 @@ nav ul {
         gap: 20px;
     }
 
+    .inactive {
+        display: none;
+    }
+
+    .card-one {
+        left: 0;
+    }
+
+    .card-two {
+        right: 0;
+    }
+
+    .accent {
+        padding: 0 !important;
+    }
+
+    .pricing-card {
+        padding: 20px !important;
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+        z-index: 1;
+        position: relative;
+    }
+
+
+
+
 }
 
 
@@ -198,6 +225,8 @@ nav ul {
 }
 
 .pricing-card:not(.accent) {
+    padding-left: 10px;
+    padding-right: 10px;
     z-index: 1;
     position: relative;
 }
