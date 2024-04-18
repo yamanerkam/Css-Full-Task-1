@@ -89,7 +89,19 @@ nav ul {
     width: 2rem;
 }
 
+.plan-price {
+    font-size: 30px;
+    font-weight: bold;
+}
 
+.plan-price::after {
+    position: relative;
+    left: -3px;
+
+    content: "/mo";
+    font-size: 10px;
+    color: #2523235b;
+}
 
 
 
